@@ -4,22 +4,22 @@ cask "olivares" do
 
   on_macos do
     on_intel do
-      sha256 "e298e6bf255951631d1519459700941a46e688cac6dcab252a4fef03fc8f31dd"
+      sha256 "eb4e5586b617639056d3b21aba7f7c725b61e66c59cd3ad75c2893aec79b57d9"
       url "https://github.com/olivaresai/olivares/releases/download/v#{version}/olivares_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b65989a88f22e68b34a2e742d510d6579d80e099c8b95d363d919de9ff9be0c7"
+      sha256 "161000135f59e28a4132cd2254dad45f6ce88a47c9607c3fbdefe3bad8e3b788"
       url "https://github.com/olivaresai/olivares/releases/download/v#{version}/olivares_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "82e0ce69097e384fa279b68b265eb2e44c46ab1006a4a3b690bc59bf9312fade"
+      sha256 "9246de50ab22a1a02c7f56b2ec5c360c16f1266528be03867f582efdadf735f2"
       url "https://github.com/olivaresai/olivares/releases/download/v#{version}/olivares_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "ffc750f96a9453d7b2eb6c7e93d097bacb0e789a0dcc0c6e3b3e29d0aca8ad0e"
+      sha256 "481959b87926603b0e5974bfea53d77e05a35e950bc6a452e6612fc886429260"
       url "https://github.com/olivaresai/olivares/releases/download/v#{version}/olivares_#{version}_linux_arm64.tar.gz"
     end
   end
